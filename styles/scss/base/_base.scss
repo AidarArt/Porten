@@ -1,0 +1,60 @@
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: $font-main;
+    background: $black;
+    color: $white;
+    font-size: 16px;
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    position: relative;
+}
+
+a {
+    color: $textGray;
+    transition: color 0.2s ease-in;
+    &:hover {
+        color: $white;
+    }
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: $font-h2;
+    text-transform: uppercase;
+    position: relative;
+
+    &::after {
+        content: "";
+
+        display: block;
+        width: 33.333%;
+        height: 1px;
+        background: $white;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1140px;
+}
+
+.none {
+    display: none;
+}
+
+.body_hidden {
+    overflow: hidden;
+}

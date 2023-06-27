@@ -1,0 +1,32 @@
+.products {
+    padding: 120px 0 150px 0;
+}
+
+.products__title {
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+
+    h2::after {
+        margin: 40px auto;
+    }
+
+    @media screen and (max-width: 470px) {
+        font-size: 24px !important;
+    }
+}
+
+.products__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 23px;
+    // justify-content: space-between;
+
+    .card {
+        margin: 0 auto;
+    }
+
+    @media  screen and (max-width: 1200px) {
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    }
+}

@@ -1,0 +1,13 @@
+.footer {
+    padding: 17px 0;
+}
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__privacy {
+    font-size: 14px;
+    color: $privacy;
+}
+.footer__author {
+}

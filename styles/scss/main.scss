@@ -1,0 +1,20 @@
+// Base
+@import './base/reset';
+@import './base/fonts';
+@import './base/vars';
+@import './base/base';
+@import './base/animations';
+@import './base/mixins';
+
+// Blocks
+@import './blocks/header';
+@import './blocks/nav';
+@import './blocks/preview';
+@import './blocks/presentation';
+@import './blocks/card';
+@import './blocks/product';
+@import './blocks/brands';
+@import './blocks/about';
+@import './blocks/footer';
+@import './blocks/burger-menu';
+@import './blocks/modals';
